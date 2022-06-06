@@ -172,7 +172,7 @@ if (!('autorespond' in settings)) settings.autorespond = false
 } else global.db.data.settings[botNumber] = {
 available: false,
 composing: false,
-recording: false,
+recording: true,
 autorespond:false,
 }
 } catch (err) {
@@ -239,7 +239,7 @@ user.afkReason = ''
             }
         }
         
-/*if(autorecording){
+*if(autorecording){
 	if(autorecording== true) return
 	await alpha.sendPresenceUpdate('recording', m.chat)
 	} else if(autoketik){
