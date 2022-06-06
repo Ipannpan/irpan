@@ -239,7 +239,7 @@ user.afkReason = ''
             }
         }
         
-*if(autorecording){
+if(autorecording){
 	if(autorecording== true) return
 	await alpha.sendPresenceUpdate('recording', m.chat)
 	} else if(autoketik){
