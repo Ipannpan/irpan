@@ -248,7 +248,7 @@ if(autorecording){
 		} else if(available){
 			if(available == true) return
 			alpha.sendPresenceUpdate('available', m.chat)
-			}*/
+			}
 
 
  //FUN
